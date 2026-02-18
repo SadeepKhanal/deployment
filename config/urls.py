@@ -22,4 +22,6 @@ urlpatterns = [
     path("book/", include("book_outlet.urls")),
     path("registration/", include("registration.urls")),
     path("session/", include("session.urls")),
+     path("api/testjwt/", include("testjwt.urls")),
+
 ]
